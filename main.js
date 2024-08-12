@@ -1,6 +1,27 @@
 
-// widget.js
 (function() {
+    // Create the button
+    var button = document.createElement('button');
+    button.id = 'data-fetch-button';
+    button.innerText = 'Show Posts';
+Expand
+message.txt
+3 KB
+Arko Roy Badhon — Today at 1:02 PM
+https://arkoroybadhon.github.io/widget/main.js
+kazirayhan — Today at 1:07 PM
+// widget.js
+document.addEventListener('DOMContentLoaded', function() {
+    // Create the button
+    var button = document.createElement('button');
+    button.id = 'data-fetch-button';
+    button.innerText = 'Show Posts';
+Expand
+message.txt
+3 KB
+﻿
+// widget.js
+document.addEventListener('DOMContentLoaded', function() {
     // Create the button
     var button = document.createElement('button');
     button.id = 'data-fetch-button';
@@ -73,5 +94,4 @@
     // Append the button and card to the body
     document.body.appendChild(button);
     document.body.appendChild(card);
-})();
-
+});
